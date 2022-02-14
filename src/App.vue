@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="computer"></div>
+    <div id="computer" :style="computedStyleObject"></div>
     <div>
       <button @click="onClickButton('바위')">바위</button>
       <button @click="onClickButton('가위')">가위</button>
